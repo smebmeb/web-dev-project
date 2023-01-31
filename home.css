@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+}
+.nav-bar{ 
+    display: flex; 
+    flex-direction: row; 
+    padding: 1%;
+    background-color: #E61F26;
+    margin:auto;
+    
+}
+.nav-bar ul{
+    padding-left: 675px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style-type: none;
+   
+}
+
+.nav-bar li{
+    margin: 12px;
+    font-size: 24px;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li a:hover{
+    background-color: black;
+}
+
+.searchbar {
+    padding-top: 16px;
+}
+
+.banner .pic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding: 3%;
+    
+    
+}
+
+
+
+
+
